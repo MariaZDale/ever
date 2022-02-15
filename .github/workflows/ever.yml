@@ -70,7 +70,7 @@ jobs:
 
     - name: Making tunnels
 
-      run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region sa 3389"'
+      run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region us 3389"'
 
     - name: Connect.
 
